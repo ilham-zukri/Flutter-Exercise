@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".Conversion">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/decimal" />
+
+    <EditText
+        android:id="@+id/input_decimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/blank"
+        android:textColor="@color/maincolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/binary"/>
+
+    <EditText
+        android:id="@+id/input_binary"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hexa"/>
+
+    <EditText
+        android:id="@+id/input_hexa"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/octal"/>
+
+    <EditText
+        android:id="@+id/input_octal"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank"/>
+
+    <Button
+        android:id="@+id/btn_Convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert" />
+
+
+
+
+</LinearLayout>
